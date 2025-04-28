@@ -1,0 +1,147 @@
+.blogList-container{
+    width: 100%;
+    /* height: 90vh; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    /* justify-content: space-between; */
+    padding: 30px 30px;
+    background-color: #ffffff;
+    gap:10px;
+}
+.container-head{
+    width: 100%;
+    /* height: 50px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+    background-color: #ffffff;
+    /* gap:50px; */
+}
+.container-head h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.container-head h2:hover{
+    color: #f95454;
+    cursor: pointer;
+}
+.container-head button{
+   
+    width: 150px;
+    height: 50px;
+    padding: 8px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f95454;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.container-body{
+    width: 100%;
+    /* height: 50px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+    background-color: #ffffff;
+    gap:10px;
+}
+.container-body {
+    padding: 20px;
+  }
+  
+  .blog-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Slight hover effect */
+  }
+  
+  .card-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card-content p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .card-actions button {
+    background-color: #4CAF50; /* Green button */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .card-actions button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  .card-actions button:last-child {
+    background-color: #f44336; /* Red button for delete */
+  }
+  
+  .card-actions button:last-child:hover {
+    background-color: #e53935; /* Darker red on hover */
+  }
+  
+  .edit-form input,
+  .edit-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .edit-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .edit-form button + button {
+    background-color: #f44336; 
+  }
+  
+  .edit-form button + button:hover {
+    background-color: #e53935;
+  }
+  

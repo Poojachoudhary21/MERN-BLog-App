@@ -1,0 +1,51 @@
+.blogform-container{
+    width: 100%;
+    height: 90vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #ffffff;
+    gap:50px;
+}
+.form-container{
+    width: 350px;
+    /* height: 400px; */
+    padding: 20px 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+}
+textarea{
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #dfdfdf;
+    font-size: 16px;
+    outline:  #741212;
+    transition: all 0.3s ease-in-out;
+}
+textarea:focus{
+    border: 1px solid #f95454;
+    box-shadow: 0 0 5px rgba(249,84,84,0.5);
+    /* border: 1px solid blue;
+    outline: none; */
+}
+.message {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);  
+  }
+  
+  .message.error {
+    color: red;  
+  }
+  

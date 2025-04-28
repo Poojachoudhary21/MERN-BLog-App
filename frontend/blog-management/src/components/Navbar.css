@@ -1,0 +1,15 @@
+.navbar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: #f95454;
+    gap:50px
+}
+a{
+    text-decoration: none;
+    color: rgb(237, 237, 237);
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}

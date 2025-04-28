@@ -1,0 +1,11 @@
+# Ignore node_modules for both backend and frontend
+backend/node_modules/
+frontend/BLOG-MANAGEMENT/node_modules/
+
+# Ignore environment files
+backend/.env
+frontend/BLOG-MANAGEMENT/.env
+
+# Ignore build files
+frontend/BLOG-MANAGEMENT/dist/
+frontend/BLOG-MANAGEMENT/build/
