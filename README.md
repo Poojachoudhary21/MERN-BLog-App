@@ -191,7 +191,6 @@ Frontend runs typically on `http://localhost:5173/` (if Vite) or `http://localho
 - Logout functionality
 - Refresh Tokens and Expiry handling
 - Profile pages
-- Blog Editing/Deleting
 - Admin Dashboard
 - UI/UX Improvements
 
